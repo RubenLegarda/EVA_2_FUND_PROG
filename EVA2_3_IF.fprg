@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:51:54 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDY7MDQ6NDQ6MTEgcC4gbS47MjgzNQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDY7MDQ6NTE6NTQgcC4gbS47MTsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce una calificaci&#243;n: &quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;ACREDITASTE&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;MEJOR SUERTE PARA LA PR&#211;XIMA&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
